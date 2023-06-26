@@ -17,3 +17,11 @@ def test_2():
 
 def test_3():
     assert Polyedr(f"data/ccc_3.geom").without_draw() == 0
+
+
+def test_4():
+    assert Polyedr(f"data/ccc_4.geom").without_draw() == approx(7.758770483143634)
+
+
+def test_5():
+    assert Polyedr(f"data/ccc_5.geom").without_draw() == 4.0
